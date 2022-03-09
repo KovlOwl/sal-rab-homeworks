@@ -3,17 +3,24 @@ function addInCartMessage(title, price) {
     let productPrice = price;
 
     // Задание №1.1. Оповещение о добавлении в корзину
-
+    let message;
     // создайте переменную message
+    message = productName;
     // присвойте переменной message значение переменной productName
+    message = message + ' '
     // добавьте в конец переменной message пробел
+    message = message + ' ' + 'за'
     // добавьте в конец переменной message текст 'за'
+    message = message + ' ' + 'за' + ' '
     // добавьте в конец переменной message пробел
+    message = message + ' ' + 'за' + ' ' + productPrice
     // добавьте в конец переменной message значение переменной productPrice
+    message = message + ' ' + 'за' + ' ' + productPrice + ' '
     // добавьте в конец переменной message пробел
+    message = message + ' ' + 'за' + ' ' + productPrice + ' ' + 'теперь в корзине!';
     // добавьте в конец переменной message текст 'теперь в корзине!'
+    console.log(message);
     // выведите переменную message в консоль
-    //test KovlOwl
     // Конец решения задания №1.1.
 
     return message;
