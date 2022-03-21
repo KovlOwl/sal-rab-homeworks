@@ -20,7 +20,7 @@ function renderProductsCards(json) {
     let length = products.length;
 
     for (let i = 0; i < length; i += 1){
-        addProduct(i);
+        addProduct(products[i]);
     }
 }
 // Напишите функцию renderProductsCards(json)
